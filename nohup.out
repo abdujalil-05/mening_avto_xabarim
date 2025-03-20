@@ -1,0 +1,673 @@
+Cannot get difference for channel 1922804886 since the account is likely misusing the session: attempt to write a readonly database
+Unhandled exception from keepalive_handle after cancelling <class '_asyncio.Task'> (<Task finished name='Task-8' coro=<UpdateMethods._keepalive_loop() done, defined at /Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/updates.py:481> exception=OperationalError('disk I/O error')>)
+Traceback (most recent call last):
+  File "/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/helpers.py", line 176, in _cancel
+    await task
+  File "/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/updates.py", line 519, in _keepalive_loop
+    self.session.save()
+  File "/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 237, in save
+    self._conn.commit()
+sqlite3.OperationalError: disk I/O error
+Task exception was never retrieved
+future: <Task finished name='Task-468' coro=<TelegramBaseClient._disconnect_coro() done, defined at /Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py:707> exception=OperationalError('attempt to write a readonly database')>
+Traceback (most recent call last):
+  File "/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 737, in _disconnect_coro
+    self._save_states_and_entities()
+  File "/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 694, in _save_states_and_entities
+    self.session.process_entities(types.contacts.ResolvedPeer(None, [e._as_input_peer() for e in entities], []))
+  File "/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+✅ Telegram akkauntga muvaffaqiyatli ulandik!
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+✅ Xabar yuborildi: -1916315162
+✅ Xabar yuborildi: -2288412718
+✅ Xabar yuborildi: -2463506982
+✅ Xabar yuborildi: -2022831174
+✅ Xabar yuborildi: -2394919330
+✅ Xabar yuborildi: -1517648590
+✅ Xabar yuborildi: -1922804886
+✅ Xabar yuborildi: -2016923230
+✅ Xabar yuborildi: -2203670917
+2025-03-20 21:18:50,277 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:18:50,381 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/auth.py:154: UserWarning: the session already had an authorized user so it did not login to the user account using the provided phone (it may not be using the user you expect)
+  warnings.warn(
+2025-03-20 21:18:51,464 - INFO - ✅ Telegram akkauntga muvaffaqiyatli ulandik!
+2025-03-20 21:18:59,223 - INFO - Sleeping for 23s (0:00:23) on GetParticipantsRequest flood wait
+2025-03-20 21:22:03,190 - INFO - Got difference for account updates
+2025-03-20 21:22:03,279 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:03,513 - INFO - Got difference for account updates
+2025-03-20 21:22:03,643 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:22:03,826 - INFO - Got difference for channel 2394919330 updates
+2025-03-20 21:22:04,064 - INFO - Got difference for channel 1588513540 updates
+2025-03-20 21:22:04,260 - INFO - Got difference for channel 2203670917 updates
+2025-03-20 21:22:04,310 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:04,470 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:22:04,613 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:22:04,733 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:22:04,863 - INFO - Got difference for channel 2405419976 updates
+2025-03-20 21:22:05,020 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:22:05,155 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 21:22:05,303 - INFO - Got difference for channel 2288412718 updates
+2025-03-20 21:22:05,483 - INFO - Got difference for channel 1517648590 updates
+2025-03-20 21:22:05,617 - INFO - Got difference for channel 2093650742 updates
+2025-03-20 21:22:05,822 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:22:05,977 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:22:06,124 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:22:06,257 - INFO - Got difference for channel 2170188286 updates
+2025-03-20 21:22:08,567 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:22:12,546 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:22:12,712 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/auth.py:154: UserWarning: the session already had an authorized user so it did not login to the user account using the provided phone (it may not be using the user you expect)
+  warnings.warn(
+2025-03-20 21:22:13,447 - INFO - ✅ Telegram akkauntga muvaffaqiyatli ulandik!
+2025-03-20 21:22:22,380 - INFO - Sleeping for 22s (0:00:22) on GetParticipantsRequest flood wait
+2025-03-20 21:22:44,699 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:44,911 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:22:45,271 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:45,460 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:22:52,955 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:53,152 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 21:22:53,524 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:53,763 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 21:22:54,261 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:54,466 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 21:22:55,072 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:55,511 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 21:22:56,066 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:56,314 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 21:22:56,770 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 21:22:57,001 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 21:23:00,848 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 21:23:01,054 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 21:23:01,403 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 21:23:01,598 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 21:23:02,198 - INFO - Sleeping for 13s (0:00:13) on GetParticipantsRequest flood wait
+2025-03-20 21:23:05,454 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:23:15,509 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 21:23:15,700 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 21:23:17,161 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 21:23:17,356 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 21:23:24,496 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 21:23:57,234 - INFO - Got difference for account updates
+2025-03-20 21:23:57,367 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:23:57,501 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:23:57,639 - INFO - Got difference for channel 2288412718 updates
+2025-03-20 21:23:57,796 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:23:57,936 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:23:58,872 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:24:05,942 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:24:15,362 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 21:24:15,490 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:24:15,575 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 21:33:10,221 - WARNING - Server closed the connection: [Errno 54] Connection reset by peer
+2025-03-20 21:33:10,223 - INFO - Connection closed while receiving data: [Errno 54] Connection reset by peer
+2025-03-20 21:33:10,223 - INFO - Closing current connection to begin reconnect...
+2025-03-20 21:33:10,223 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:33:10,224 - INFO - <class 'ConnectionResetError'> during disconnect: [Errno 54] Connection reset by peer
+2025-03-20 21:33:10,326 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-03-20 21:33:11,384 - INFO - Got difference for channel 1916315162 updates
+2025-03-20 21:33:13,328 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:33:14,172 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:33:16,113 - INFO - Got difference for channel 1588513540 updates
+2025-03-20 21:33:17,849 - INFO - Got difference for channel 2203670917 updates
+2025-03-20 21:33:19,484 - INFO - Got difference for channel 2463506982 updates
+2025-03-20 21:33:22,402 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:33:29,234 - INFO - Got difference for account updates
+2025-03-20 21:33:29,993 - INFO - Got difference for channel 2405419976 updates
+2025-03-20 21:33:30,135 - INFO - Got difference for channel 2093650742 updates
+2025-03-20 21:33:40,281 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:33:50,291 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:33:59,143 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:34:04,252 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:34:29,155 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:34:42,855 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:34:43,003 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:35:07,866 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:35:18,896 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:35:45,299 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:35:55,326 - INFO - Got difference for account updates
+2025-03-20 21:36:06,678 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 21:36:27,021 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:36:57,962 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 21:37:00,054 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:37:17,290 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:37:25,976 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:37:26,084 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/auth.py:154: UserWarning: the session already had an authorized user so it did not login to the user account using the provided phone (it may not be using the user you expect)
+  warnings.warn(
+2025-03-20 21:37:26,794 - INFO - ✅ Telegram akkauntga muvaffaqiyatli ulandik!
+2025-03-20 21:37:35,242 - INFO - Sleeping for 23s (0:00:23) on GetParticipantsRequest flood wait
+2025-03-20 21:37:58,886 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:37:59,140 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:37:59,523 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:37:59,723 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:38:07,662 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:07,912 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 21:38:08,349 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:08,571 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 21:38:09,122 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:09,443 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 21:38:10,051 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:10,470 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 21:38:10,988 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:11,455 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 21:38:11,915 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:12,130 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 21:38:15,862 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:16,114 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 21:38:16,606 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:16,836 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 21:38:17,538 - INFO - Sleeping for 12s (0:00:12) on GetParticipantsRequest flood wait
+2025-03-20 21:38:29,859 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:30,058 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 21:38:31,710 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 21:38:31,904 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 21:38:39,067 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 21:39:08,301 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 21:39:08,525 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 21:39:34,444 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:40:20,082 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:40:20,237 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:40:27,386 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:40:38,688 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:41:09,155 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:41:23,692 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:44:57,209 - INFO - Got difference for account updates
+2025-03-20 21:44:57,372 - INFO - Got difference for account updates
+2025-03-20 21:44:57,548 - INFO - Got difference for channel 2394919330 updates
+2025-03-20 21:44:57,696 - INFO - Got difference for channel 1588513540 updates
+2025-03-20 21:44:57,849 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:44:58,039 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:44:58,191 - INFO - Got difference for channel 2405419976 updates
+2025-03-20 21:44:58,336 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:44:58,497 - INFO - Got difference for channel 2463506982 updates
+2025-03-20 21:44:58,693 - INFO - Got difference for channel 2288412718 updates
+2025-03-20 21:44:58,867 - INFO - Got difference for channel 1517648590 updates
+2025-03-20 21:44:59,009 - INFO - Got difference for channel 2093650742 updates
+2025-03-20 21:44:59,171 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:44:59,312 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:44:59,474 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:44:59,610 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 21:45:00,290 - INFO - Got difference for channel 2463506982 updates
+2025-03-20 21:45:03,087 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:45:11,864 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:45:11,968 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/auth.py:154: UserWarning: the session already had an authorized user so it did not login to the user account using the provided phone (it may not be using the user you expect)
+  warnings.warn(
+2025-03-20 21:45:12,786 - INFO - ✅ Telegram akkauntga muvaffaqiyatli ulandik!
+2025-03-20 21:45:32,342 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:45:32,445 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/auth.py:154: UserWarning: the session already had an authorized user so it did not login to the user account using the provided phone (it may not be using the user you expect)
+  warnings.warn(
+2025-03-20 21:45:33,161 - INFO - ✅ Telegram akkauntga muvaffaqiyatli ulandik!
+2025-03-20 21:45:36,116 - INFO - Sleeping for 8s (0:00:08) on GetParticipantsRequest flood wait
+2025-03-20 21:45:49,029 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:45:49,423 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:45:50,130 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:45:50,433 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:45:56,905 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:45:57,471 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 21:45:57,692 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 21:45:58,105 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 21:45:58,314 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 21:45:58,678 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 21:45:58,859 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 21:45:59,284 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 21:45:59,622 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 21:46:00,010 - INFO - Sleeping for 15s (0:00:15) on GetParticipantsRequest flood wait
+2025-03-20 21:46:00,505 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:46:12,468 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:46:15,214 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 21:46:15,469 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 21:46:15,807 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:46:15,938 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 21:46:16,188 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 21:46:19,243 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 21:46:19,547 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 21:46:19,914 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 21:46:20,104 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 21:46:20,936 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 21:46:21,149 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 21:46:22,846 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 21:46:23,094 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 21:46:30,875 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 21:46:39,835 - INFO - Got difference for account updates
+2025-03-20 21:46:39,976 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 21:46:49,369 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:46:51,481 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:46:52,338 - INFO - Got difference for channel 1916315162 updates
+2025-03-20 21:47:00,095 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 21:47:00,351 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 21:47:38,930 - INFO - Got difference for account updates
+2025-03-20 21:47:41,706 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 21:48:06,409 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:48:16,768 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:51:21,205 - INFO - Got difference for account updates
+2025-03-20 21:51:21,397 - INFO - Got difference for account updates
+2025-03-20 21:51:21,605 - INFO - Got difference for account updates
+2025-03-20 21:51:21,980 - INFO - Got difference for channel 2394919330 updates
+2025-03-20 21:51:22,316 - INFO - Got difference for channel 1588513540 updates
+2025-03-20 21:51:22,554 - INFO - Got difference for channel 2203670917 updates
+2025-03-20 21:51:22,752 - INFO - Got difference for channel 2463506982 updates
+2025-03-20 21:51:22,973 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:51:23,174 - INFO - Got difference for channel 2405419976 updates
+2025-03-20 21:51:23,351 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:51:23,594 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:51:23,962 - INFO - Got difference for channel 2288412718 updates
+2025-03-20 21:51:24,370 - INFO - Got difference for channel 1517648590 updates
+2025-03-20 21:51:24,635 - INFO - Got difference for channel 2093650742 updates
+2025-03-20 21:51:24,895 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:51:25,111 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:51:25,255 - INFO - Got difference for channel 1262050589 updates
+2025-03-20 21:51:25,398 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 21:51:38,106 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-03-20 21:51:38,211 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+/Users/abdujalil/Library/Python/3.9/lib/python/site-packages/telethon/client/auth.py:154: UserWarning: the session already had an authorized user so it did not login to the user account using the provided phone (it may not be using the user you expect)
+  warnings.warn(
+2025-03-20 21:51:39,013 - INFO - ✅ Telegram akkauntga muvaffaqiyatli ulandik!
+2025-03-20 21:51:47,577 - INFO - Sleeping for 23s (0:00:23) on GetParticipantsRequest flood wait
+2025-03-20 21:52:11,048 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:11,280 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:52:11,676 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:11,874 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:52:19,487 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:19,683 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 21:52:20,103 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:20,307 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 21:52:20,672 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:20,871 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 21:52:21,261 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:21,620 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 21:52:22,039 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:22,259 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 21:52:22,650 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:22,834 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 21:52:26,100 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:26,373 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 21:52:26,839 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:27,070 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 21:52:27,976 - INFO - Sleeping for 14s (0:00:14) on GetParticipantsRequest flood wait
+2025-03-20 21:52:42,447 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:42,753 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 21:52:44,459 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 21:52:44,762 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 21:52:51,876 - INFO - Sleeping for 25s (0:00:25) on GetParticipantsRequest flood wait
+2025-03-20 21:53:16,882 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:53:17,050 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:53:22,480 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 21:53:22,807 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 21:53:23,531 - INFO - Got difference for channel 1517648590 updates
+2025-03-20 21:53:56,408 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:54:25,469 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:54:25,663 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:54:28,119 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 21:54:52,288 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:55:02,287 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:55:23,593 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 21:55:23,728 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:55:27,653 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:55:31,213 - INFO - Sleeping for 23s (0:00:23) on GetParticipantsRequest flood wait
+2025-03-20 21:55:54,522 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:55:54,834 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:55:55,286 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:55:55,518 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:56:03,109 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:03,337 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 21:56:03,760 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:03,970 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 21:56:04,339 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:04,535 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 21:56:04,932 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:05,303 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 21:56:05,713 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:05,947 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 21:56:06,302 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:06,496 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 21:56:06,580 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:56:09,904 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:10,139 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 21:56:10,493 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:10,688 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 21:56:10,763 - INFO - Got difference for channel 1916315162 updates
+2025-03-20 21:56:11,291 - INFO - Sleeping for 14s (0:00:14) on GetParticipantsRequest flood wait
+2025-03-20 21:56:25,600 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:25,799 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 21:56:27,586 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 21:56:27,877 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 21:56:35,636 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 21:57:04,904 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 21:57:05,117 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 21:57:57,929 - INFO - Got difference for channel 2463506982 updates
+2025-03-20 21:58:02,308 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:58:05,906 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 21:59:13,441 - INFO - Sleeping for 23s (0:00:23) on GetParticipantsRequest flood wait
+2025-03-20 21:59:15,591 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 21:59:26,580 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:59:36,831 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:37,078 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 21:59:37,499 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:37,788 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 21:59:44,667 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:44,861 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 21:59:45,344 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:45,601 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 21:59:46,196 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:46,446 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 21:59:46,644 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 21:59:47,188 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:47,672 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 21:59:48,167 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:48,374 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 21:59:48,719 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:48,903 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 21:59:51,474 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:51,663 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 21:59:52,027 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 21:59:52,226 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 21:59:52,884 - INFO - Sleeping for 15s (0:00:15) on GetParticipantsRequest flood wait
+2025-03-20 22:00:08,276 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 22:00:08,520 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 22:00:09,707 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 22:00:10,279 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 22:00:11,397 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 22:00:11,600 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 22:00:18,469 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 22:00:27,222 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 22:00:40,204 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:00:48,664 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 22:00:48,870 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 22:01:01,920 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:01:02,603 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:01:15,175 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:01:25,776 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:01:42,337 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:02:17,675 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 22:02:25,938 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 22:02:53,599 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:02:56,143 - INFO - Sleeping for 24s (0:00:24) on GetParticipantsRequest flood wait
+2025-03-20 22:03:01,261 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:03:10,449 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 22:03:10,583 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:03:20,585 - INFO - ✅ Siz -1922804886 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:20,887 - INFO - ✅ Xabar yuborildi: -1922804886
+2025-03-20 22:03:21,563 - INFO - ✅ Siz -1535493404 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:21,961 - INFO - ✅ Xabar yuborildi: -1535493404
+2025-03-20 22:03:28,793 - INFO - ✅ Siz @uzgnet guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:28,999 - INFO - ✅ Xabar yuborildi: @uzgnet
+2025-03-20 22:03:29,383 - INFO - ✅ Siz @uzbek_forum_vip guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:29,438 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 22:03:29,590 - INFO - ✅ Xabar yuborildi: @uzbek_forum_vip
+2025-03-20 22:03:29,978 - INFO - ✅ Siz @uzfor_garant_savdoi guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:30,218 - INFO - ✅ Xabar yuborildi: @uzfor_garant_savdoi
+2025-03-20 22:03:30,599 - INFO - ✅ Siz @uzbek_forum_pro guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:31,014 - INFO - ✅ Xabar yuborildi: @uzbek_forum_pro
+2025-03-20 22:03:31,461 - INFO - ✅ Siz @garant_savdo_uzfor guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:31,668 - INFO - ✅ Xabar yuborildi: @garant_savdo_uzfor
+2025-03-20 22:03:32,091 - INFO - ✅ Siz -2203670917 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:32,330 - INFO - ✅ Xabar yuborildi: -2203670917
+2025-03-20 22:03:35,659 - INFO - ✅ Siz -1916315162 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:35,873 - INFO - ✅ Xabar yuborildi: -1916315162
+2025-03-20 22:03:36,279 - INFO - ✅ Siz -2288412718 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:36,475 - INFO - ✅ Xabar yuborildi: -2288412718
+2025-03-20 22:03:37,144 - INFO - Sleeping for 14s (0:00:14) on GetParticipantsRequest flood wait
+2025-03-20 22:03:51,544 - INFO - ✅ Siz -2463506982 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:51,782 - INFO - ✅ Xabar yuborildi: -2463506982
+2025-03-20 22:03:53,352 - INFO - ✅ Siz -2394919330 guruhiga allaqachon a'zosiz.
+2025-03-20 22:03:53,563 - INFO - ✅ Xabar yuborildi: -2394919330
+2025-03-20 22:04:01,329 - INFO - Sleeping for 23s (0:00:23) on GetParticipantsRequest flood wait
+2025-03-20 22:04:08,923 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 22:04:24,846 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:04:28,812 - INFO - ✅ Siz -1517648590 guruhiga allaqachon a'zosiz.
+2025-03-20 22:04:29,027 - INFO - ✅ Xabar yuborildi: -1517648590
+2025-03-20 22:04:29,669 - INFO - Got difference for channel 1517648590 updates
+2025-03-20 22:04:52,566 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 22:05:02,165 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:05:09,184 - INFO - Got difference for channel 2022831174 updates
+2025-03-20 22:05:09,312 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:05:17,252 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:05:25,801 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:05:45,562 - INFO - Got difference for channel 2222348198 updates
+2025-03-20 22:05:45,713 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:05:45,850 - INFO - Got difference for channel 2208256136 updates
+2025-03-20 22:05:45,996 - INFO - Got difference for channel 1535493404 updates
+2025-03-20 22:05:51,857 - INFO - Got difference for channel 1922804886 updates
+2025-03-20 22:05:55,705 - INFO - Got difference for channel 2016923230 updates
+2025-03-20 22:06:11,277 - INFO - Got difference for channel 2222348198 updates
